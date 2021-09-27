@@ -1,11 +1,15 @@
-import React from "react";
-import './Hamburguer.css'
+import React, { useState } from "react";
+import './Hamburguer.css';
 
 export default function Hamburguer(props) {
+
+    const [isOpen, setIsOpen] = useState(false);
+
     return (
         <div className='containerHamburguer'>
-            <p>X</p>
-            <ul>
+
+            <ul className='itemsHamburguer'>
+                <li>X</li>
                 <li>Home</li>
                 <li>Quem Somos</li>
                 <li>Propósitos</li>
