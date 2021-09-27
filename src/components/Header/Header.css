@@ -1,8 +1,9 @@
 .containerHeader {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
 
-  background-color: red;
+  background-color: rgb(40, 40, 40, 0.9);
 }
