@@ -1,7 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 .containerGeral {
   position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   box-sizing: content-box;
 
   background-color: aqua;
 }
+
+/* .videoBackground {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100vh;
+  height: 100vh;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+} */
