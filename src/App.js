@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="containerGeral">
       <Header />
-      <Hamburguer />
+      {/* <Hamburguer /> */}
 
       {/* <video className='videoBackground' autoplay loop >
         <source src={videoMob} type='video/mp4' />
