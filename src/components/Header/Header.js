@@ -9,7 +9,7 @@ import Menu from '../Menu/Menu'
 export default function Header(props) {
     return (
         <div className='containerHeader'>
-            <img src={logo} style={{ width: '50px', zIndex: 3 }} />
+            <img src={logo} style={{ width: '50px', zIndex: 3, padding: '6px 8px' }} />
             <Menu />
         </div>
     );
