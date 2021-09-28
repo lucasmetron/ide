@@ -41,7 +41,7 @@ export default function Menu() {
                 anchor={'top'}
                 open={state}
                 onClose={toggleDrawer(false)}
-                style={{ opacity: '0.9' }}
+                style={{ opacity: '0.9', zIndex: '3' }}
             >
                 {list()}
             </Drawer>
