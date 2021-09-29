@@ -3,27 +3,64 @@
   padding: 0px;
 }
 
+@font-face {
+  font-family: GrandCru;
+  src: url(./assets/fonts/GrandCru-LightS.otf);
+}
+
+@font-face {
+  font-family: LHFMastercraft1;
+  src: url(./assets/fonts/LHFMastercraft1.otf);
+}
+
+@font-face {
+  font-family: MasterCraft1Rough;
+  src: url(./assets/fonts/LHFMastercraft1Rough.otf);
+}
+
+@font-face {
+  font-family: LHFMastercraft1Shadow;
+  src: url(./assets/fonts/LHFMastercraft1Shadow.otf);
+}
+
+@font-face {
+  font-family: LHFMastercraft1Spurs;
+  src: url(./assets/fonts/LHFMastercraft1Spurs.otf);
+}
+
+@font-face {
+  font-family: LHFMastercraft2;
+  src: url(./assets/fonts/LHFMastercraft2.otf);
+}
+
+@font-face {
+  font-family: LHFMastercraft2Shadow;
+  src: url(./assets/fonts/LHFMastercraft2Shadow.otf);
+}
+
+@font-face {
+  font-family: LHFMastercraft2Spurs;
+  src: url(./assets/fonts/LHFMastercraft2Spurs.otf);
+}
+
 .containerGeral {
   position: relative;
   top: 0;
   left: 0;
   right: 0;
   width: 100%;
+  min-height: 100vh;
   box-sizing: content-box;
 
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
-/* .videoBackground {
+.videoBackground {
   position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 100vh;
-  height: 100vh;
-  width: auto;
-  height: auto;
-  z-index: -1000;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-} */
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  min-height: 100vh;
+  z-index: -50;
+}
