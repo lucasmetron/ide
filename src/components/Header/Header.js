@@ -1,8 +1,8 @@
 import React from 'react'
 import './Header.css'
 import logo from '../../assets/images/whiteLogo.svg'
-import Hamburguer from '../Hamburguer/Hamburguer';
 import Menu from '../Menu/Menu'
+import { Link } from 'react-router-dom'
 
 const styleLogo = {
     width: '50px',
@@ -16,7 +16,7 @@ const styleLogo = {
 export default function Header(props) {
     return (
         <div className='containerHeader'>
-            <img src={logo} style={styleLogo} />
+            <Link to='/'><img src={logo} style={styleLogo} /></Link>
             <Menu />
         </div>
     );

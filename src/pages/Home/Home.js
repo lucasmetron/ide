@@ -9,6 +9,7 @@ import orePorMim from '../../assets/images/inciatialScreen/orePorMim.svg'
 import contribuicao from '../../assets/images/inciatialScreen/contribuicao.svg'
 import queroPertencer from '../../assets/images/inciatialScreen/queroPertencer.svg'
 import missoes from '../../assets/images/inciatialScreen/missoes.svg'
+import Footer from '../../components/Footer/Footer';
 
 export default function Home(props) {
     return (
@@ -19,7 +20,7 @@ export default function Home(props) {
 
             <div className='optionsMenu'>
                 <div className='divOptionMenu'>
-                    <Link to='/'> <img src={programacao} className='IconOptionMenu' /></Link>
+                    <Link to='/programacao'> <img src={programacao} className='IconOptionMenu' /></Link>
                     <p>PROGRAMAÇÃO</p>
                 </div>
 
@@ -59,6 +60,8 @@ export default function Home(props) {
                 </div>
 
             </div>
+
+            <Footer />
         </div>
     );
 }

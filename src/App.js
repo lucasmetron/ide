@@ -11,7 +11,8 @@ import StatementFaith from './pages/StatementFaith/StatementFaith';
 import Ministries from './pages/Ministries/Ministries';
 import Contact from './pages/Contact/Contact';
 import useWindowSize from './hooks/useWindowSize';
-import Footer from './components/Footer/Footer';
+import Schedule from './pages/Schedule/Schedule'
+
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           <Route exact path='/declaracao-de-fe' component={StatementFaith} />
           <Route exact path='/ministerios' component={Ministries} />
           <Route exact path='/contatos' component={Contact} />
+          <Route exact path='/programacao' component={Schedule} />
           <Route exact path='*'  > <div>Página não encontrada :/</div> </Route>
         </Switch>
 
@@ -36,7 +38,7 @@ function App() {
           <source src={windowSize.width > 618 ? videoPC : videoMob} type="video/mp4" />
         </video>
 
-        <Footer />
+
       </div>
     </Router>
   );
