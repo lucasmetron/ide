@@ -13,7 +13,7 @@ export default function Schedule(props) {
 
             <div className='mainSchedule'>
                 <p>Confira nossa programação e fique por dentro das nossas novidades!</p>
-                <img className='imgSchedule' src={foto} />
+                <a src='www.google.com.br' target='_blank'><img className='imgSchedule' src={foto} /></a>
             </div>
 
 
