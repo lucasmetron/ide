@@ -12,6 +12,7 @@ import Ministries from './pages/Ministries/Ministries';
 import Contact from './pages/Contact/Contact';
 import useWindowSize from './hooks/useWindowSize';
 import Schedule from './pages/Schedule/Schedule'
+import Celebration from './pages/Celebrations/Celebrations';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
           <Route exact path='/ministerios' component={Ministries} />
           <Route exact path='/contatos' component={Contact} />
           <Route exact path='/programacao' component={Schedule} />
+          <Route exact path='/celebracoes' component={Celebration} />
           <Route exact path='*'  > <div>Página não encontrada :/</div> </Route>
         </Switch>
 
