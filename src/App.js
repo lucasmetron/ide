@@ -14,6 +14,7 @@ import useWindowSize from './hooks/useWindowSize';
 import Schedule from './pages/Schedule/Schedule'
 import Celebration from './pages/Celebrations/Celebrations';
 import Conections from './pages/Conections/Conections';
+import College from './pages/College/College';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
           <Route exact path='/programacao' component={Schedule} />
           <Route exact path='/celebracoes' component={Celebration} />
           <Route exact path='/conexoes' component={Conections} />
+          <Route exact path='/college' component={College} />
           <Route exact path='*'  > <div>Página não encontrada :/</div> </Route>
         </Switch>
 

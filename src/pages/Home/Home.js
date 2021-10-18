@@ -35,7 +35,7 @@ export default function Home(props) {
                 </div>
 
                 <div className='divOptionMenu'>
-                    <Link to='/'> <img src={college} className='IconOptionMenu' /></Link>
+                    <Link to='/college'> <img src={college} className='IconOptionMenu' /></Link>
                     <p>COLLEGE</p>
                 </div>
 
