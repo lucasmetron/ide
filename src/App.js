@@ -15,6 +15,7 @@ import Schedule from './pages/Schedule/Schedule'
 import Celebration from './pages/Celebrations/Celebrations';
 import Conections from './pages/Conections/Conections';
 import College from './pages/College/College';
+import PrayForMe from './pages/PrayForMe/PrayForMe'
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
           <Route exact path='/celebracoes' component={Celebration} />
           <Route exact path='/conexoes' component={Conections} />
           <Route exact path='/college' component={College} />
+          <Route exact path='/orePorMim' component={PrayForMe} />
           <Route exact path='*'  > <div>Página não encontrada :/</div> </Route>
         </Switch>
 
